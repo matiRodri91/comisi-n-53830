@@ -592,7 +592,10 @@ li a{
     font-size: 2.8125rem;
     margin: 3.125rem 0 0 0;
 }
-
+.people{
+    display: flex;
+    flex-direction: column;
+}
 .clientes{
     display: flex;
     flex-direction: column;
@@ -672,8 +675,39 @@ li a{
     
 }
 
+@media(max-width: 1275px){
 
-
+    .chica{
+        width: 13.75rem;
+        height: 21.875rem;
+        padding: 1.5625rem .9375rem;
+        border-radius: 50%;
+        margin-left: 1.25rem;
+    
+    }
+    .chico{
+        width: 13.75rem;
+        height: 21.875rem;
+        padding: 1.5625rem .9375rem;
+        border-radius: 50%;
+        margin-left: 1.25rem;
+    }
+    .chico-2{
+        width: 13.75rem;
+        height: 21.875rem;
+        padding: 1.5625rem .9375rem;
+        border-radius: 50%;
+        margin-left: 1.25rem;
+    }
+    .clientes p{
+        display: flex;
+        width: 13.75rem;
+        height: 1.875rem;
+        padding-left: 1.875rem;
+        text-align: center;
+        font-weight: 100;
+}
+}
 
 @media(max-width: 1040px){
     
@@ -754,6 +788,40 @@ li a{
         justify-content: center;
     }
 
+    /*pagina comentarios sobre el producto*/
+
+    .fourthMain{
+        flex-direction: column;
+        height: fit-content;
+        margin-bottom: 0;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fourthH{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+        ;
+
+    }
+    .people{
+    
+        
+    }
+    .clientes{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container{
+
+    }
+    
 
 
 
@@ -828,7 +896,4 @@ li a{
         flex-direction: column;
         margin-right: .625rem;
     }
-
-
-
 }
